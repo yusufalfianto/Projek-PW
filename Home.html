@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	body{
+		background: url('Home.jpg') no-repeat scroll;
+		background-size: 100% 100%;
+		min-height: 700px;
+		}
+		
+	ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #333;	
+	}
+
+	li {
+		float: right;
+		
+	}
+
+	li a, .dropbtn {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	li a:hover, .dropdown:hover .dropbtn {
+		background-color: red;
+	}
+
+	li.dropdown {
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+	.dropdown-content a:hover {background-color: #f1f1f1}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	
+	
+	div.gallery {
+		margin-top: 300px;
+		margin-bottom: 300px;
+		margin-right: 15px;
+		margin-left: 15px;
+		border: 1px solid #ccc;
+		float: left;
+		width: 300px;
+	}
+
+	div.gallery:hover {
+		border: 1px solid #777;
+	}
+
+	div.gallery img {
+		width: 100%;
+		height: auto;
+	}
+
+	div.desc {
+		padding: 0;
+		text-align: center;
+		color:white;
+	}
+	
+	
+	
+	</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a>Studio XYZ</a></li>
+  <li><a href="#home">Utama</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">List Peralatan</a>
+    <div class="dropdown-content">
+      <a href="#">Kamera</a>
+      <a href="#">Audio</a>
+      <a href="#">Perlengkapan</a>
+    </div>
+  </li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Kontak</a>
+    <div class="dropdown-content">
+      <p>Instagram</p>
+      <p>Line</p>
+      <p>Whasapp</p>
+    </div>
+  </li>
+  
+</ul>
+
+
+
+<div class="gallery">
+  <a target="_blank" href="img1.jpg">
+    <img src="img1.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  <div class="desc">dji ronin</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img2.jpg">
+    <img src="img2.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">dji mavic</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img3.jpg">
+    <img src="img3.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">dji spark</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img4.jpg">
+    <img src="img4.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">canon 600d</div>
+</div>
+
+</body>
+	
+
+</html>
