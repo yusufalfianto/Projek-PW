@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style type="text/css">
+
+.active {
+	background-color: #717171;
+	}
+body {font-family: Verdana,sans-serif;}
+	.mySlides {display:none}
+	
+	ul {
+    list-style-type: none;
+	width: 1340px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+	background-size: 100% 100%;
+    background-color: #333;	
+	}
+	li {
+		float: right;
+		
+	}
+	li a, .dropbtn {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover, .dropdown:hover .dropbtn {
+		background-color: red;
+	}
+	li.dropdown {
+		display: inline-block;
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+	.dropdown-content a:hover {background-color: #f1f1f1}
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+	
+	
+h1{
+text-align: center;
+}
+table {
+	width : 100%;
+    
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+div.gallery {
+    
+    float: left;
+    width: 100%;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+	
+</style>
+
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<ul>
+	<li><a>Studio XYZ</a></li>
+	<li><a href="#home">Utama</a></li>
+  
+	<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn">List Peralatan</a>
+		<div class="dropdown-content">
+		<a href="#">Kamera</a>
+		<a href="#">Audio</a>
+		<a href="#">Perlengkapan</a>
+		</div>
+	</li>
+  
+	<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn">Kontak</a>
+		<div class="dropdown-content">
+		<a href="#"><img src="ig.png" style="width:	25px"> Instagram</a>
+		<a href="#"><img src="Line.png" style="width:25px"> Line</a>
+		<a href="#"><img src="whatsapp.png" style="width:25px"> Whasapp</a>
+		</div>
+	</li>
+  
+	<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn"><img src="user-login.png" style= "width: 34px"></a>
+		<div class="dropdown-content">
+		<a href="#">Logout</a>
+		</div>
+	<li>
+	
+</ul>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container-fluid">
+  
+  <div class="row">
+    <div class="col-md-4" >
+	<div class="gallery">
+  <a target="_blank" href="img1.jpg">
+    <img src="img1.jpg" alt="DJI RONIN" width="900" height="600">
+  </a>
+  <div class="desc">DJI RONIN</div>
+</div>
+	<table>
+  <tr>
+    <th>Tipe</th>
+    <th>Penjelasan</th>
+  </tr>
+  <tr>
+    <td>Weight</td>
+    <td>4,2 KG</td>
+  </tr>
+  <tr>
+    <td>Dimensions</td>
+    <td>620mm(W) x 280-380mm (D)x 500mm(H)</td>
+  </tr>
+</table>
+	</div>
+    <div class="col-md-8" >
+	<h1>DJI RONIN</h1>
+	<p >
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque purus dui, malesuada ut finibus ac, sollicitudin sit amet velit. Proin pulvinar aliquam nulla quis porttitor. Mauris pharetra dolor ac ultricies volutpat. Integer vel ante nec libero posuere semper ac sed magna. Donec eget ultrices arcu. Suspendisse in leo quis justo sodales feugiat aliquam quis nunc. Vestibulum non tincidunt lectus. Pellentesque rhoncus augue nulla. Donec vel finibus nisl.
+	</p>
+	<p>
+	 Integer fermentum ultrices velit, quis mollis mi faucibus non. Nam nisi tellus, efficitur nec sollicitudin et, dignissim sit amet quam. Nullam blandit eu sem sit amet molestie. Praesent tempus sit amet orci nec placerat. Cras pharetra elementum turpis eu venenatis. Donec hendrerit enim sit amet justo viverra sollicitudin. Aliquam elit ante, pretium sed aliquam at, pellentesque vitae eros. Morbi feugiat, mauris vel consequat bibendum, diam ex ullamcorper arcu, quis porta sem metus ut nisl. Cras maximus lacus ac efficitur pretium. In volutpat at ipsum at interdum. Phasellus sollicitudin fringilla elit, nec faucibus velit molestie sit amet. Duis non pellentesque ante. Donec tincidunt magna eu turpis accumsan ornare.
+	</p>
+	<p >
+	 Sed tristique rutrum risus, et luctus libero lacinia a. Cras sit amet arcu ultricies, ultrices justo vel, lacinia quam. Phasellus non leo sed urna imperdiet porta in et risus. Pellentesque metus urna, finibus nec pulvinar quis, varius non felis. Maecenas bibendum mattis purus vitae auctor. Vestibulum faucibus risus in turpis mattis commodo a in libero. Aliquam nec purus non est fermentum malesuada. Nulla sem dolor, venenatis sed diam vel, consequat fringilla lectus. Etiam ac convallis enim. Ut eleifend eros ut turpis tincidunt tincidunt. Nulla imperdiet tellus ut sem pretium rutrum. Pellentesque turpis augue, posuere vitae ultrices a, egestas a sapien. Sed consequat tortor augue, quis semper nibh dignissim ut.
+	</p>
+	
+	</div>
+	
+  </div>
+</div>
+    
+	
+	<script type = "text/javascript">
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+	
+</body>
+</html>
