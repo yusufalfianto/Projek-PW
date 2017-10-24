@@ -159,3 +159,51 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+
+/*Login*/
+input{
+        	position : absolute;
+        	margin-top : 217px;
+            margin-left : 555px;
+			width : 282px;
+			height : 24px;
+            border: 1.5px solid #ff3300;
+			border-radius: 6px;
+			padding: 3px;
+        }
+	
+	
+	.Link a:link{
+		color: orange;
+		padding: 8px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin-top: 1px;
+		margin-left: 745px;
+	} 
+	
+	.Link a:visited {
+		color: orange;
+		
+	}
+	
+	.Link a:hover, a:active {
+		color: red;
+	}
+	
+	.link-button a:link, a:visited {
+		background-color: #ff3300;
+		color: white;
+		padding: 8px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin-top: 255px;
+		margin-left: 555px;
+	}
+	
+	
+	.link-button a:hover, a:active {
+		background-color: red;
+	}
